@@ -62,7 +62,7 @@ $.when(
          vmstorage = {};
          
         if(localStorage.getItem('init') != 'false') {
-            io.init(userdata);
+            io.init(dataobject);
         }
 
          $('body').footerbar();
